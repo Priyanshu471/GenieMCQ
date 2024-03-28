@@ -33,8 +33,9 @@ For testing the application you have to clone this application to your local mac
 2. Navigate to the directory where you want to clone the repository.
 3. Use the command `git clone https://github.com/Priyanshu471/GenieMCQ.git` to clone the repository.
 4. Once the cloning is complete, navigate to the project directory using the command `cd GenieMCQ`.
-5. Run app.py file to run the server.
-6. Send data to server at `/generate`.
+5. Run `pip install -r requirements.txt` to install all the required dependencies.
+6. Execute `python app.py` to run start server.
+7. Send data to server at `/generate`.
 
 - file - pdf or text
 - number - number of questions (for testing please keep it upto 5)
